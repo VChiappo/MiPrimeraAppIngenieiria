@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MiPrimeraApp!</string>
+    <string name="lanzar_dado">LANZAR DADO</string>
+    <string name="este_es_un_texto_con_margen_de_color">Este es un texto con margen de color</string>
+    <string name="todo">TODO</string>
+</resources>
+

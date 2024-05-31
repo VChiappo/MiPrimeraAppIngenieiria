@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/imgDado"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DD82A1"
+    android:hapticFeedbackEnabled="false"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="94dp"
+        android:layout_height="47dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_horizontal|center_vertical"
+        android:textColor="#212121"
+        android:textSize="34sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.179"
+        tools:ignore="TextSizeCheck,VisualLintOverlap"
+        tools:text="1" />
+
+    <Button
+        android:id="@+id/btnLanzar"
+        android:layout_width="182dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="420dp"
+        android:backgroundTintMode="add"
+        android:contentDescription="@string/todo"
+        android:text="@string/lanzar_dado"
+        android:textColor="@color/white"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtResultado"
+        app:rippleColor="#FFFFFF"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imgDado2"
+        android:layout_width="160dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="92dp"
+        android:contentDescription="TODO"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtResultado"
+        app:srcCompat="@drawable/d1"
+        tools:visibility="visible" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
